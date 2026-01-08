@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>INDEX</title>
+
+
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+
+	<style>
+		body
+		{
+			background-color:lightpink;
+		}
+	a:link, a:visited
+	{
+		color:deeppink;
+		background-color:lightpink;
+		text-decoration: none;
+		text-align: center;
+		padding: 15px;
+		display: inline-block;
+		border-radius: 35px;
+	}
+
+	a:hover, a:active
+	{
+		color: lightpink;
+		background-color:deeppink;
+	}
+	</style>
+
+</head>
+<body>
+
+	<table width= "50%" align="center">
+		<tr> 
+			<td><a href="index.html">home</a></td>
+			<td><a href="biodata.html">biodata </a></td>
+			<td><a href="education.html">education</a></td>
+			<td><a href="experience.html">experience</a></td>
+			<td><a href="family.html"> family</a></td>
+			<td><a href="favourites.html">favourites</a></td>
+			<td><a href="gallery.html">gallery</a></td>
+			<td><a href="contact.html"> contact </a></td>
+		</tr>
+	</table>
+
+	<div id="clock" style="text-align:center; color:deeppink; font-size:20px; margin:15px;">
+	</div>
+
+	<h1 style="color: lightpink; background-color: deeppink; font-family: Georgia; font-size: 24px; text-align: center;"><b>HELLOOOO !!!<br> WELCOME TO MY PERSONAL WEBSITE</b></h1>
+
+	<img src="image/aina1.jpg" alt="Image of Aina" style="float:right; width: 350px; height: 350px;">
+
+	<p> This website is a small part of my journey from my studies to the things I enjoy in everyday life. </p>
+	<p> Here, you’ll find my background, experiences, and the people who make my days brighter. </p>
+	<p> Creating this website has been fun, creative, and meaningful for me. </p>
+	<p> A place where I learn, explore, and express myself. </p>
+	<p> Take your time, scroll around, and enjoy the vibe hiks ! </p>
+
+	<div style="clear: both;"></div>
+
+	<audio controls>
+		<source src="music1.mp3" type="audio/mp3">
+			Your browser does not support audio element
+	</audio>
+
+	<script>
+		{
+			alert("HIII !!! \n WELCOME TO MY WEBPAGE \n ENJOYYYY")
+		}
+	</script>
+
+	<script>
+	function showTime() {
+  	const now = new Date();
+  	let h = now.getHours();
+  	let m = now.getMinutes();
+  	let s = now.getSeconds();
+
+  	if (m < 10) m = "0" + m;
+  	if (s < 10) s = "0" + s;
+
+  	document.getElementById("clock").innerHTML =
+    "Current Time: " + h + ":" + m + ":" + s;
+}
+
+	setInterval(showTime, 1000);
+	showTime();
+</script>
+
+	<footer>
+  		<p>&copy; 2026 Aina</p>
+  		<p style="font-size:12px;">Last updated: January 2026</p>
+	</footer>
+
+</body>
+</html>
